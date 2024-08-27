@@ -23,7 +23,7 @@ section {
 .listing-heading {
   font-size: 48pt;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 .listing-location::before {
   content: url('/assets/location-pin.svg') / '';
@@ -35,7 +35,7 @@ section {
 .listing-features > .section-heading {
   color: var(--secondary-color);
   font-size: 24pt;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 .listing-features {
   margin-bottom: 20px;
@@ -48,7 +48,8 @@ li {
 }
 .listing-apply .section-heading {
   font-size: 18pt;
-  margin-bottom: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 label, input {
   display: block;
@@ -61,7 +62,7 @@ label {
 }
 input {
   font-size: 16pt;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   padding: 10px;
   width: 400px;
   border-top: none;
