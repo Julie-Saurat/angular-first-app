@@ -20,7 +20,15 @@ button {
   background: var(--primary-color);
   color: white;
   border-radius: 8px;
+  margin-left: 0.5rem;
 }
+button.primary {
+  background: var(--primary-color);
+}
+button.secondary {
+  background: var(--secondary-color);
+}
+
 @media (min-width: 500px) and (max-width: 768px) {
   .results {
       grid-template-columns: repeat(2, 1fr);
